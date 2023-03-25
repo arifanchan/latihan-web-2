@@ -3,7 +3,7 @@
 
 <body>
 
-<form action="<?= base_url('Latihan2/cetak'); ?>" method="post">
+<form action="<?= base_url('index.php/Latihan2/cetak'); ?>" method="post">
 <table border="1%">
 
 <tr>
@@ -41,7 +41,6 @@
 
 </table>
 
-<?php echo validation_errors(); ?>
 </form>
 
 </body>
